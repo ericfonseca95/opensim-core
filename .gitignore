@@ -2,9 +2,6 @@
 *~
 *.swp
 *.swo
-# Ignore cmake files.
-*CMakeCache.txt
-*CMakeFiles
 # Ignore tmp directory/file. We use it sometimes to write debug information.
 tmp
 # Ignore build trees.
@@ -23,11 +20,6 @@ out.log
 
 # Mac
 .DS_Store
-
-# dependencies
-dependencies/*
-!dependencies/*.cmake
-!dependencies/*.patch
 
 # python
 *.pyc
