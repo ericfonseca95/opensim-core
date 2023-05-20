@@ -26,7 +26,6 @@ out.log
 
 # dependencies
 dependencies/*
-!dependencies/CMakeLists.txt
 !dependencies/*.cmake
 !dependencies/*.patch
 
